@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYTUS_DOCUMENTATION</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+
+<div class="nav-button" style="display: none;">
+  <img src="">
+  <span></span>
+</div>
+
+  <!-- 视频背景 -->
+  <video class="bg-video" autoplay muted loop>
+    <source src="./res/os_bg.mp4" type="video/mp4">
+    您的浏览器不支持HTML5视频
+  </video>
+  
+
+  <!-- ==============前景图片和标题，这里记得加按钮和1.0栏！ =============-->
+  <div class="front-image">
+    <img src="./res/OS.png" alt="前景图片">
+    <div class="page-title" id="pageTitle">&ltCLIENT_DOCUMENTATION&gt</div>
+	<div class="button-scroll-area"></div>
+	
+	
+  </div>
+
+
+<audio id="bgMusic" autoplay muted loop>
+  <source src="./res/os.mp3" type="audio/mp3" />
+</audio>
+
+<audio id="clickSound">
+    <source src="./res/sound_imback.wav" type="audio/wav">
+</audio>
+
+<audio id="backSound">
+    <source src="./res/sound_back.wav" type="audio/wav">
+</audio>
+
+<audio id="FSclickSound">
+    <source src="./res/sound_imtopicexpand.wav" type="audio/wav">
+</audio>
+
+<audio id="FSbackSound">
+    <source src="./res/sound_slide.wav" type="audio/wav">
+</audio>
+
+<script src="./main.js"></script>
+  
+
+</body>
+</html>

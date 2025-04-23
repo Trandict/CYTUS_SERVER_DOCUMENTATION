@@ -1,0 +1,13 @@
+{
+  "id": "Log_???_2016_08_21_2",
+  "title": "Log_???_20=16_08_21_2",
+  "icon": "./res/icon_bossstage.png",
+  "buttonPosition": {
+    "left": "455px",
+    "top": "300px"
+  },
+  "pageTitle": "Log_???_2016_08_21_2",
+  "characterIcon": "./char/T.png",
+  "bgm": "./bgm/im.wav",
+  "contentHTML": "<div class='plain-text'><div class='content'><p><span class='en'>[12:27:27] [Client thread/INFO]: [CHAT] </span><span>欢迎</span><span class='en'>, Trandict_!</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:27:27] [Client thread/INFO]: [CHAT] </span><span>输入</span><span class='en'> /help </span><span>查看帮助</span><span class='en'>.</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:27:27] [Client thread/INFO]: [CHAT] </span><span>玩家列表</span><span class='en'>: Trandict_</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:27:27] [Client thread/INFO]: [CHAT] </span><span>现金余额</span><span class='en'>: $0</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:27:27] [Client thread/INFO]: [CHAT] </span><span>现在时间</span><span class='en'>: 12:27:272016-8-21</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:27:27] [Client thread/INFO]: [CHAT] </span><span>在线人数</span><span class='en'>: 1</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:27:37] [Client thread/INFO]: [CHAT] * Trandict_ 1</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:27:43] [Client thread/INFO]: [CHAT] * Trandict_ Laugh</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:28:01] [Client thread/INFO]: [CHAT] </span><span>你的昵称现在是</span><span class='en'> The_Builder.</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[12:28:54] [Client thread/INFO]: [CHAT] </span><span>成功发送工具包</span><span class='en'> tools </span><span>给</span><span class='en'> The_Builder§.</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[13:24:25] [Client thread/INFO]: [CHAT] Trandict_ left the game.</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[13:24:34] [Client thread/INFO]: [CHAT] Trandict_ joined the game.</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[13:24:34] [Client thread/INFO]: [CHAT] </span><span>欢迎</span><span class='en'>, The_Builder!</span></p></div></div>"
+}

@@ -1,0 +1,341 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+	  font-size: 16px;
+      height: 100vh;
+      font-family: 'Electrolize', sans-serif;
+
+    }
+	
+	i {
+  display: inline-block;
+  transform: skew(-10deg);
+}
+	
+	@font-face {
+	  font-family: SCFont;
+	  src: url('./res/SCRegular.ttf') format('truetype');
+}
+	@font-face {
+	  font-family: FSDillon;
+	  src: url('./res/fs_dillon-medium.otf');
+}
+	
+	.toggle-bar {
+    position: absolute;
+    top: 58px; /* 根据标题的 top 和高度略作调整 */
+    left: 50.7%;
+	opacity: 0.7;
+    transform: translateX(-50%);
+    width: 475px;
+    height: 15px;
+    background: linear-gradient(to bottom, #460c11, #871011); /* 你可以自定义颜色 */
+    border-radius: 4px;
+    text-align: left;
+    line-height: 15px;
+	padding-left: 3px;
+    font-family: 'Electrolize', sans-serif;
+    color: #e36c75;
+    font-size: 0.5rem;
+    cursor: pointer;
+    z-index: 15;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: all 0.1s ease;
+}
+
+.toggle-bar:hover {
+      transform: translateX(-50%) scale(1.004);
+    }
+
+	.sectionA {
+	opacity: 0.8;
+	  position: absolute; /* 绝对定位 */
+	  top: 60px; /* 你可以根据需要调整这些值 */
+	  left: 50px;
+	  right: 50px;
+	  bottom: 40px; /* 使其充满整个front-image */
+	  padding: 0 20px 0 20px;
+	  color: #fdb1b2; /* 根据背景颜色选择适当的文字颜色 */
+	  z-index: 10; /* 确保它在图片之上 */
+	  max-height: 100%; /* 限制sectionA的高度 */
+	  overflow-y: auto;
+	}
+
+    /* 视频背景 */
+    .bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+	
+
+    /* 前景图片容器 */
+    .front-image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.8);
+      width: 600px;
+      height: 450px;
+      max-width: 120%;
+      max-height: 120vh;
+    }
+	
+	.button-scroll-area {
+	  position: absolute;
+	  padding-top: 60px;
+	  padding: 0 10px;
+	  top: 0px;  /* 和按钮区顶部对齐 */
+	  left: 0;
+	  right: 0;
+	  bottom: 30px;
+	  overflow-y: auto; /* ✅ 只有按钮可以滚动 */
+	  z-index: 20;
+	  mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 14%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 95%, rgba(0,0,0,0)); /* 可选渐隐效果 */
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 14%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 95%, rgba(0,0,0,0));
+
+	}
+	
+	.button-scroll-area::-webkit-scrollbar {
+	  display: none;
+	}
+	
+	.sectionA::-webkit-scrollbar {
+	  display: none;
+	}
+	
+
+    /* 前景图片 */
+    .front-image img {
+      opacity: 0.7;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+	
+	.char {
+	position: absolute;
+	  top: 26%;
+      left: 23%;
+      opacity: 0.04 !important;
+      width: 20%;
+      height: 20%;
+	  transform: scale(0.32, 0.40);
+	  z-index: 1000;
+	  background-color: transparent;
+    }
+
+    /* 页面标题 */
+    .page-title {
+      position: absolute;
+      top: 34px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 0.8rem;
+	  font-weight: 800;
+      color: #bc221e;
+      text-shadow: 0 0 10px rgba(0,0,0,0.8);
+      z-index: 10;
+    }
+
+    /* 左上角按钮 */
+    .nav-button {
+      position: absolute;
+	  opacity: 0.5;
+      width: 80px;
+      height: 70px;
+      background-color: #690001;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 20;
+      transition: all 0.1s ease;
+      text-align: center;
+      padding-top: 3px;
+    }
+	
+	.nav-button img {
+      width: 60px;
+      height: 50px;
+      margin-top: -2px;
+	  padding-left: 11px;
+    }
+
+    .nav-button span {
+      font-family: 'Electrolize', sans-serif;
+      font-size: 0.5rem;
+      color: white;
+      font-weight: bold;
+      display: block;
+	  text-align: center;
+	  margin-top: -10px;
+	  transform: scale(0.8, 0.8);
+    }
+
+    .nav-button:hover {
+      background-color: #8a0001;
+      transform: scale(1.01);
+    }
+   
+   .targetPage {
+      display: none;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.0);
+      color: white;
+      font-family: 'Electrolize', sans-serif;
+      transition: opacity 0.2s ease;
+    }
+	
+	.back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+    }
+	
+	.back-button:hover {
+      color: #333333;
+      transform: scale(1.01);
+    }
+
+    .dialog-box, .action-box, .img-template, .video-template {
+      margin: 5px;
+      padding: 5px;
+      border-radius: 4px;
+    }
+	.plain_text{
+	  margin: 0px;
+	  padding: 0px;
+	}
+	
+	.dialog-box{
+	  background: #100001;
+    }
+	
+	.dialog-box .name {
+	  padding: 2px;
+      font-family: 'FSDillon', sans-serif;
+	  color: white;
+	  font-weight: 300;
+	  font-size: 0.5rem;
+    }
+
+    .dialog-box .content span {
+	  padding: 0px 0px 0px 0rem;
+      font-family: 'Noto Sans SC', sans-serif;
+	  font-size: 12px;
+	  font-weight: 500;
+	  letter-spacing: 0px;
+	  line-height: 1.0;
+    }
+	.dialog-box .content span.en{
+	  font-family:  sans-serif;
+	  font-size: 12px;
+	  letter-spacing: 0px; /* 增加英文间距，让更舒服 */
+	  line-height: 1.0;
+	}
+	
+	.action-box .content span {
+      font-family: 'Noto Sans SC', sans-serif;
+	  font-size: 12px;
+	  font-weight: 500;
+	  letter-spacing: 0px;
+    }
+	.action-box .content span.en{
+	  font-family:  'Inria Sans', sans-serif;
+	  font-size: 12px;
+	  letter-spacing: 0px; /* 增加英文间距，让更舒服 */
+	}
+	
+	p, br {
+    margin: 0; /* 取消默认间距，确保一致性 */
+  }
+	
+	.plain-text .content span {
+      font-family: 'Noto Sans SC', sans-serif;
+	  font-size: 12px;
+	  font-weight: 500;
+	  letter-spacing: 0px;
+	  line-height: 1.3;
+	  padding: 0px 0px 0px 0px;
+    }
+	.plain-text .content span.en{
+	  font-family: sans-serif;
+	  font-size: 12px;
+	  letter-spacing: 0px; /* 增加英文间距，让更舒服 */
+	  line-height: 1.3;
+	  padding: 0px 0px 0px 0px;
+	}
+
+	#modules {
+	  display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column;
+	  gap: 5px;
+	  justify-content: left; /* 或 space-between、flex-start等 */
+	}
+	
+	#targetPage {
+  overflow-y: hidden;
+}
+
+    .action-box {
+      display: flex;
+	  height: 14px;
+      align-items: center;
+      background: #b21a1c;
+    }
+
+    .action-box img {
+      width: 10px;
+      height: 10px;
+      margin-right: 10px;
+    }
+
+    .img-template img, .video-template img {
+      width: 100px;
+      height: 60px;
+      cursor: pointer;
+    }
+
+    .full-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.9);
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .full-screen img, .full-screen video {
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    .full-screen .back-button {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+    }
+	
+	* {
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none;     /* IE/Edge */
+}

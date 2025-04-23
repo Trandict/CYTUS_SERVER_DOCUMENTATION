@@ -1,0 +1,10 @@
+{
+  "id": "Vid_Gnd_2022_02_10_1",
+  "title": "Vid_Gnd_20=22_02_10_1",
+  "icon": "./res/icon_image.png",
+  "buttonPosition": {"left": "70px", "top": "140px"},
+  "pageTitle": "Vid_Gnd_2022_02_10_1",
+  "characterIcon": "./char/ALIENIZ.png",  
+  "bgm": "", 
+  "contentHTML": "<div class='video-template'><img src='./res/attachment.png' data-src='./res/Vid/Vid_Gnd_2022_2_10_1.mp4'></div>"
+}

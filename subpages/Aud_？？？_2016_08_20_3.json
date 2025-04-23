@@ -1,0 +1,13 @@
+{
+  "id": "Aud_???_2016_08_20_3",
+  "title": "Aud_???_20=16_08_20_3",
+  "icon": "./res/icon_video.png",
+  "buttonPosition": {
+    "left": "360px",
+    "top": "300px"
+  },
+  "pageTitle": "Aud_???_2016_08_20_3",
+  "characterIcon": "./char/T.png",
+  "bgm": "",
+  "contentHTML": "<div class='dialog-box'><div class='name'>[Cloudy_]</div><div class='content'><span>尴尬</span></div></div><div class='dialog-box'><div class='name'>[Cloudy_]</div><div class='content'><span>下回留</span><span class='en'>・</span><span>一点生的鸡和生猪</span><span class='en'>，</span><span>现在食物次不完</span></div></div><div class='dialog-box'><div class='name'>[Trandict_]</div><div class='content'><span>要不要沿着窝天梯的方向扩建一个刷怪区</span></div></div><div class='dialog-box'><div class='name'>[Trandict_]</div><div class='content'><span>噫不过好像有点大</span></div></div><div class='action-box', data-sound='./sounds/pop.wav'><img src='./res/tap_fx_icon.png'><div class='content'><span>拾取物品</span></div></div><div class='dialog-box'><div class='name'>[Cloudy_]</div><div class='content'><span>打骷髅掉的</span><span class='en'>，</span><span>和你那把合一下</span></div></div><div class='dialog-box'><div class='name'>[Cloudy_]</div><div class='content'><span>艹屮毛给我一下</span></div></div><div class='dialog-box'><div class='name'>[Trandict_]</div><div class='content'><span>噫窝下了</span></div></div><div class='action-box', data-sound='./sounds/pop.wav'><img src='./res/tap_fx_icon.png'><div class='content'><span class='en'>Trandict_ </span><span>离开了游戏</span><span class='en'>.</span></div></div><div class='plain-text'><div class='content'>  <span><i>[讯号中断]</i></span>  </div></div>"
+}

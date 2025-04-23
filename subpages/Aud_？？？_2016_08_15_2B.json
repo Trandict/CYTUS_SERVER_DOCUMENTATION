@@ -1,0 +1,13 @@
+{
+  "id": "Aud_???_2016_08_15_2B",
+  "title": "Aud_???_20=16_08_15_2B",
+  "icon": "./res/icon_video.png",
+  "buttonPosition": {
+    "left": "75px",
+    "top": "140px"
+  },
+  "pageTitle": "Aud_???_2016_08_15_2B",
+  "characterIcon": "./char/T.png",
+  "bgm": "",
+  "contentHTML": "<div class='dialog-box'><div class='name'>[Cloudy_]</div><div class='content'><span>其实我找到一个骷髅刷怪笼</span></div></div><div class='dialog-box'><div class='name'>[zhengyi]</div><div class='content'><span>我去挖矿了</span></div></div><div class='dialog-box'><div class='name'>[Trandict_]</div><div class='content'><span class='en'>Roger</span></div></div><div class='dialog-box'><div class='name'>[zhengyi]</div><div class='content'><span>算了</span><span class='en'>，</span><span>去打怪升级吧</span></div></div><div class='dialog-box'><div class='name'>[zhengyi]</div><div class='content'><span>好吧果然我还是应该当侠盗</span><span class='en'>233.</span></div></div><div class='action-box', data-sound='./sounds/fallbig.wav'><img src='./res/tap_fx_icon.png'><div class='content'><span class='en'>zhengyi</span><span>从高处摔了下来</span></div></div><div class='dialog-box'><div class='name'>[zhengyi]</div><div class='content'><span>亡灵兔你下的封印里面有钻石</span><span class='en'>，</span><span>挖不到</span><span class='en'>。qwq</span></div></div><div class='dialog-box'><div class='name'>[Trandict_]</div><div class='content'><span class='en'>1</span></div></div><div class='dialog-box'><div class='name'>[zhengyi]</div><div class='content'><span class='en'>* cloudy_</span><span>亡灵兔在堡垒里的箱子被我发现了</span></div></div><div class='dialog-box'><div class='name'>[Trandict_]</div><div class='content'><span class='en'>what]</span></div></div><div class='dialog-box'><div class='name'>[Cloudy_]</div><div class='content'><span>有什么东西</span></div></div><div class='dialog-box'><div class='name'>[zhengyi]</div><div class='content'><span>雪球</span></div></div><div class='action-box', data-sound='./sounds/pop.wav'><img src='./res/tap_fx_icon.png'><div class='content'><span class='en'>Cloudy_</span><span>离开了游戏</span><span class='en'>.</span></div></div><div class='plain-text'><div class='content'>  <span><i>[讯号中断]</i></span>  </div></div>"
+}

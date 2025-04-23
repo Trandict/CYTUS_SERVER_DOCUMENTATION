@@ -1,0 +1,13 @@
+{
+  "id": "Log_???_2016_08_18_2",
+  "title": "Log_???_20=16_08_18_2",
+  "icon": "./res/icon_bossstage.png",
+  "buttonPosition": {
+    "left": "360px",
+    "top": "220px"
+  },
+  "pageTitle": "Log_???_2016_08_18_2",
+  "characterIcon": "./char/T.png",
+  "bgm": "./bgm/im.wav",
+  "contentHTML": "<div class='plain-text'><div class='content'><p><span class='en'>[11:01:09] [Client thread/INFO]: [CHAT] Trandict_ joined the game.</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[11:01:09] [Client thread/INFO]: [CHAT] </span><span>欢迎</span><span class='en'>, Trandict_!</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[11:01:09] [Client thread/INFO]: [CHAT] </span><span>输入</span><span class='en'> /help </span><span>查看帮助</span><span class='en'>.</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[11:01:09] [Client thread/INFO]: [CHAT] </span><span>玩家列表</span><span class='en'>: Cloudy_, hongchun, Trandict_</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[11:01:09] [Client thread/INFO]: [CHAT] </span><span>现金余额</span><span class='en'>: $0</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[11:01:09] [Client thread/INFO]: [CHAT] </span><span>现在时间</span><span class='en'>: 11:01:08 2016-8-18</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[11:01:09] [Client thread/INFO]: [CHAT] </span><span>在线人数</span><span class='en'>: 3</span></p></div></div><div class='plain-text'><div class='content'><p><span class='en'>[11:01:09] [Client thread/INFO]: [CHAT] </span><span>你没有新的邮件</span></p></div></div>"
+}
